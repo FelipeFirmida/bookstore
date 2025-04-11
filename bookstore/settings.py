@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# Application definition (restframeworkd added)
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "order",
+    "product",
 ]
 
 MIDDLEWARE = [
