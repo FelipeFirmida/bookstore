@@ -1,10 +1,10 @@
 from product.models import Category, Product
 
 import django
+
 django.setup()
 
 import factory
-
 
 
 class CategoryFactory(factory.django.DjangoModelFactory):
