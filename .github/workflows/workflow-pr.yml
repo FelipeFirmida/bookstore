@@ -29,6 +29,11 @@ jobs:
       - name: Test
         run: |
           poetry run python manage.py test
+        env:
+          DJANGO_ALLOWED_HOSTS: "localhost 127.0.0.1 testserver"
+          SECRET_KEY: "your-django-secret-key-here"  # Add this if missing
+          DEBUG: "False"  # Add this if missing
+
       - name: Wemake Python Stylguide
         uses: wemake-services/wemake-python-styleguide@0.16.0
         continue-on-error: true
