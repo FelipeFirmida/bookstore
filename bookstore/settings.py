@@ -159,4 +159,4 @@ DEBUG = int(os.environ.get("DEBUG", default=0))
 # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
 # Alterado Allowed_Hosts
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'felipefirmida.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'firmida.pythonanywhere.com']
